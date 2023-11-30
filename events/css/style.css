@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        background-color: lavender;
+        background-image: url(../img/event-butt.jpeg);
+        background-repeat: repeat-y;
+        background-position: center;
+        background-size: 100%;
+        /* background-blend-mode: overlay; */
+    }
+/* nav section */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.logo {
+    min-height: 15vh;
+    width: 13%;
+    padding: 2%;
+}
+nav {
+    font-family: "new-astro", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    font-style: normal;
+    color: #672B96;
+    text-transform: lowercase;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 200px;
+    margin: 40px;
+    background-color: transparent;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.cure {
+    color: #FFEC89;
+}
+
+/* body */
+
+.events {
+    font-family: "new-astro", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    font-style: normal;
+    color: #FFEC89;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 15%;
+    background-color: #9A7BCD;
+    border-radius: 60px;
+}

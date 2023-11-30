@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    }
+
+/* nav section */
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: lavender;
+    background-image: url(../butterfly-back.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100%;
+    /* background-blend-mode: overlay; */
+}
+
+.topnav {
+    background-color: transparent;
+}
+nav {
+    font-family: "new-astro", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    font-style: normal;
+    color: #672B96;
+    text-transform: lowercase;
+    text-align: center;
+    word-spacing: 200px;
+    margin: 40px;
+    background-color: transparent;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.cure {
+    color: #FFEC89;
+}
+
+.logo {
+    min-height: 20vh;
+    width: 15%;
+    justify-content: center;
+}
+
+.title {
+    font-family: "new-astro", sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    font-style: normal;
+    color: #FFEC89;
+    text-align: center;
+    word-spacing: 10%;
+    margin: 40px;
+    background-color: transparent;
+}
+
+.help {
+    font-family: "elido", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.textbox {
+    font-family: "ff-tisa-sans-web-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15%;
+    padding: 30px;
+    background-color: antiquewhite;
+    opacity: 50%;
+    border-radius: 25px;
+
+}
+/* @media screen {
+   
+} */
