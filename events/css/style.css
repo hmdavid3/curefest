@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     }
 
     body {
@@ -10,7 +11,6 @@
         background-repeat: repeat-y;
         background-position: center;
         background-size: 100%;
-        /* background-blend-mode: overlay; */
     }
 /* nav section */
 .topnav {
@@ -23,6 +23,7 @@
     width: 13%;
     padding: 2%;
 }
+
 nav {
     font-family: "new-astro", sans-serif;
     font-weight: 800;
@@ -31,12 +32,18 @@ nav {
     color: #672B96;
     text-transform: lowercase;
     text-align: center;
-    text-decoration: none;
-    word-spacing: 200px;
+    word-spacing: 50px;
     margin: 40px;
     background-color: transparent;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
 nav a {
     text-decoration: none;
 }
