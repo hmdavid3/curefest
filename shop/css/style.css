@@ -127,6 +127,20 @@ nav ul li a:hover {
     align-items: center;
     gap: 90px;
 }
+.merch {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 180px;
+}
+
+.merch-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
 .monies {
     font-family: "ff-tisa-sans-web-pro", sans-serif;
     font-weight: 400;
