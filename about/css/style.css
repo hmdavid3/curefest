@@ -9,10 +9,10 @@
         background-color: lavender;
         background-image: url(../img/about-butt-final.jpg);
         background-repeat: repeat-y;
-        background-position: center;
         background-size: 100%;
     }
 /* nav section */
+
 .nav-list {
     list-style-type: none;
 }
@@ -50,14 +50,83 @@ nav ul li a {
     color: orange;
 }
 
+/* body */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.title {
+    font-family: "new-astro", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: normal;
+    color: #FFEC89;
+    text-align: center;
+    background-color: #7437A1;
+    border-radius: 60px;
+    padding: 15px 30px;
+    margin: 10px auto;
+}
+
+.figure-container {
+    margin-top: 20px;
+}
+.name {
+    font-family: "elido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.side-by-side {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.figure-image {
+    width: 432px;
+    height: 540px;
+    border-radius: 50px;
+}
+
+.information {
+    text-align: center;
+    font-family: "ff-tisa-sans-web-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px 30px 10px 10px;
+    color: #3F2A52;
+}
+
+
+/* media queries */
 @media screen and (max-width: 1200px) {
-    /* .title {
+    .title {
         font-size: 80px;
         padding: 10px 20px;
     }
 
-    .artists {
+    /* .artists {
         flex-direction: column;
     }
 
