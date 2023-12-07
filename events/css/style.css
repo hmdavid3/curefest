@@ -9,23 +9,23 @@
         background-color: lavender;
         background-image: url(../img/event-butt-final.jpg);
         background-repeat: repeat-y;
-        background-position: center;
         background-size: 100%;
     }
 /* nav section */
-.topnav {
-    background-color: transparent;
+
+.nav-list {
+    list-style-type: none;
 }
 
-.navigate {
+.nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
 }
+
 .logo {
-    min-height: 8vh;
     width: 120px;
 }
 
@@ -34,29 +34,12 @@ nav {
     font-weight: 800;
     font-size: 45px;
     font-style: normal;
-    color: #672B96;
-    text-transform: lowercase;
     text-align: center;
-    word-spacing: 80px;
-    background-color: transparent;
-}
-
-nav ul {
-    list-style-type: none;
-    margin-left: 10px;
-}
-
-nav ul li {
-    display: inline-block;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-}
-
-nav ul li h1 {
-    font-size: 80px;
 }
 
 .cure {
@@ -69,34 +52,29 @@ nav ul li h1 {
 
 /* body */
 
-.events {
+.title {
     font-family: "new-astro", sans-serif;
     font-weight: 800;
-    font-size: 70px;
+    font-size: 100px;
     font-style: normal;
     color: #FFEC89;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 35%;
-    margin-right: 35%;
     background-color: #7437A1;
     border-radius: 60px;
+    padding: 15px 30px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    margin: 40px;
-}
-.dayone {
-    position: relative;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 5%;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 1200px;
+
 }
 
-.dayone h2 {
-    position: relative;
+.day-title {
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -104,77 +82,73 @@ nav ul li h1 {
     color: white;
 }
 
-.firstday {
+.artists {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    position: relative;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.firstday img {
+.artist-image {
     width: 346px;
     height: 230px;
     border-radius: 50px;
 }
 
-.daytwo {
-    /* display: flex;
-    flex-direction: row;
-    gap: 20px;
-    position: relative;
-    justify-content: center; */
+.day-container {
     margin-top: 20px;
-    margin-left: 5%;
 }
 
-.daytwo h2 {
-    position: relative;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-}
-.secondday {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    position: relative;
-    justify-content: center;
-}
-.secondday img {
-    width: 346px;
-    height: 230px;
-    border-radius: 50px;
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 80px;
+        padding: 10px 20px;
+    }
+
+    .artists {
+        flex-direction: column;
+    }
+
+    .day-title {
+        text-align: center;
+    }
+
+    .artist-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .nav-list {
+        display: grid;
+        grid-template-areas: 
+        "home logo shop"
+        "events logo about"
+        ;
+    }
+
+    .home {
+        grid-area: home;
+    }
+
+    .events {
+        grid-area: events;
+    }
+    
+    .nav-logo {
+        grid-area: logo;
+    }
+    
+    .shop {
+        grid-area: shop;
+    }
+
+    .about {
+        grid-area: about;
+    }
 }
 
-.daythree {
-    position: relative;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 5%;
-}
-
-.daythree h2 {
-    position: relative;
-    font-family: "eight", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: white;
-}
-
-.thirdday {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    position: relative;
-    justify-content: center;
-}
-
-.thirdday img {
-    width: 346px;
-    height: 230px;
-    border-radius: 50px;
+@media screen and (max-width: 425px) {
+    nav {
+        font-size: 30px;
+    }
 }

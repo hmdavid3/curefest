@@ -13,19 +13,19 @@
         background-size: 100%;
     }
 /* nav section */
-.topnav {
-    background-color: transparent;
+.nav-list {
+    list-style-type: none;
 }
 
-.navigate {
+.nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
 }
+
 .logo {
-    min-height: 8vh;
     width: 120px;
 }
 
@@ -34,29 +34,12 @@ nav {
     font-weight: 800;
     font-size: 45px;
     font-style: normal;
-    color: #672B96;
-    text-transform: lowercase;
     text-align: center;
-    word-spacing: 80px;
-    background-color: transparent;
-}
-
-nav ul {
-    list-style-type: none;
-    margin-left: 10px;
-}
-
-nav ul li {
-    display: inline-block;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-}
-
-nav ul li h1 {
-    font-size: 80px;
 }
 
 .cure {
@@ -65,4 +48,59 @@ nav ul li h1 {
 
 .current {
     color: orange;
+}
+
+
+@media screen and (max-width: 1200px) {
+    /* .title {
+        font-size: 80px;
+        padding: 10px 20px;
+    }
+
+    .artists {
+        flex-direction: column;
+    }
+
+    .day-title {
+        text-align: center;
+    }
+
+    .artist-image {
+        width: 80%;
+        height: auto;
+    } */
+
+    .nav-list {
+        display: grid;
+        grid-template-areas: 
+        "home logo shop"
+        "events logo about"
+        ;
+    }
+
+    .home {
+        grid-area: home;
+    }
+
+    .events {
+        grid-area: events;
+    }
+    
+    .nav-logo {
+        grid-area: logo;
+    }
+    
+    .shop {
+        grid-area: shop;
+    }
+
+    .about {
+        grid-area: about;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav {
+        font-size: 30px;
+    }
 }
