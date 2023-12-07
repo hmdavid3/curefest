@@ -10,7 +10,7 @@ As an individual who has had multiple loved ones lose their battle with Lupus, I
 
 The website consists of four pages that utilizes HTML and CSS. The three pages are: the home page ("home"), a page highlighting the festival's events ("events"), a page for merchandise and the purchasing of tickets ("shop"), and an about page that consists of the festival's mission and information about our partner, the Lupus Research Alliance ("about").
 
-The "CureFest" name, logo, and overall branding materials were all made in Adobe Illustrator. The wireframing for this website was done in Figma.
+The "CureFest" name, logo, and overall branding materials were all made in Procreate and Adobe Illustrator on an iPad Pro 11". The wireframing for this website was done in Figma.
 
 FIGMA WIREFRAME - https://www.figma.com/file/oAlEZlG39BppcfSprXrrn9/CureFest?type=design&node-id=0%3A1&mode=design&t=F1dBI7cnbWP4jV2s-1
 
@@ -21,3 +21,5 @@ Lupus Research Alliance - https://www.lupusresearch.org/
 Home Page Background - https://www.wiznar.com/?category_id=2433581
 
 Events Page Background - https://www.wallpaperflare.com/animal-butterfly-wallpaper-qvhwj
+
+Hover Image Text Reveal - https://www.youtube.com/watch?v=uNTBTMoU9qs&ab_channel=LearnWeb
