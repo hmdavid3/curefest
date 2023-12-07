@@ -83,8 +83,9 @@ nav ul li a:hover {
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
+    margin-bottom: 30px;
 }
 
 .artists {
@@ -94,14 +95,58 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-.artist-image {
+.artist-image-right {
     width: 346px;
     height: 230px;
     border-radius: 50px;
 }
 
+.artist-image-left {
+    width: 346px;
+    height: 230px;
+    border-radius: 50px;
+}
+
+.artist-image-right:hover {
+    transform: rotate(20deg) translateY(-40px);
+}
+
+.artist-image-left:hover {
+    transform: rotate(-20deg) translateY(-40px);
+}
+
+#laufey {
+    width: 346px;
+    height: 230px;
+    border-radius: 50px;
+}
+
+#laufey:hover {
+    transform: translateY(-40px);
+}
+
+#nwjns {
+    width: 346px;
+    height: 230px;
+    border-radius: 50px;
+}
+
+#nwjns:hover {
+    transform: translateY(-40px);
+}
+
+#olirod {
+    width: 346px;
+    height: 230px;
+    border-radius: 50px;
+}
+
+#olirod:hover {
+    transform: translateY(-40px);
+}
+
 .day-container {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
