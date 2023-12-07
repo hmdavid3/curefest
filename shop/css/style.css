@@ -119,6 +119,10 @@ nav ul li a:hover {
     color:#7437A1;
     display: flex;
     text-align: center;
+    background-color: antiquewhite;
+    opacity: 75%;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .prices {

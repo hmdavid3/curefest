@@ -86,6 +86,10 @@ nav ul li a:hover {
     font-size: 60px;
     color: white;
     margin-bottom: 30px;
+    background-color: #eb7f2d;
+    opacity: 100%;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 .artists {
@@ -148,6 +152,24 @@ nav ul li a:hover {
 .day-container {
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.fake {
+    font-family: "elido", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: purple;
+    opacity: 100%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.fake:hover {
+    background-color: pink;
 }
 
 @media screen and (max-width: 1200px) {
