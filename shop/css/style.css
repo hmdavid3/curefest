@@ -83,6 +83,7 @@ nav ul li a {
 }
 
 .products {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,9 +91,14 @@ nav ul li a {
 }
 
 .product-image {
+    display: block;
     width: 350px;
     height: 350px;
     border-radius: 50px;
+}
+
+.product-image:hover {
+    overflow: visible;
 }
 
 .shop-container {
